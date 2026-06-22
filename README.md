@@ -10,6 +10,6 @@ This file will be in the unpacked firmware folder if the firmware contains resou
 ___Simply run it in the other_res folder.___
 
 ## Description of the file structure in Russian. You can use a translator :)
-[Firmware header rus](Firmware header rus.md)
+[Firmware header rus]("Firmware header rus.md")
 
-[Other_res header rus](Other_res header rus.md)
+[Other_res header rus]("Other_res header rus.md")
