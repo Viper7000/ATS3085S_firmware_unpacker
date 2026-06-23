@@ -9,7 +9,7 @@ This file will be in the unpacked firmware folder if the firmware contains resou
 
 ___Simply run other_res_unpacker.py in the other_res folder.___
 
-## 3. Main firmware. A sample upgrade.fw file unpacker. This file will be in the unpacked firmware folder.
+## 3. Main firmware Unpacker. A sample upgrade.fw file unpacker. This file will be in the unpacked firmware folder.
 
 ___Simply run upgradefw_unpacker.py in the upgrade.fw folder.___
 
