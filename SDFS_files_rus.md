@@ -2,16 +2,16 @@
 Под определенным названием находятся определенные ресурсы, которые заливаются в определенную область памяти
 
 ### sdfs.bin (u)
-  \\-- alcfg.bin
-  \\-- bttbl.bin
-  \\-- bt_pth.bin
-  \\-- bt_rf.bin
-  \\-- cfg_mic.bin
-  \\-- defcfg.bin
-  \\-- extcfg.bin
-  \\-- sdfs.txt - dyenhb 1234567890
-  \\-- siren.act
-  \\-- usrcfg.bin
+* alcfg.bin
+* bttbl.bin
+* bt_pth.bin
+* bt_rf.bin
+* cfg_mic.bin
+* defcfg.bin
+* extcfg.bin
+* sdfs.txt - dyenhb 1234567890
+* siren.act
+* usrcfg.bin
 
 ### sdfs_a.bin (f,u)
   \\-- c****_res - цыферблаты
