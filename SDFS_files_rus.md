@@ -14,15 +14,16 @@
 * usrcfg.bin
 
 ### sdfs_a.bin (f,u)
-* c****_res - цыферблаты
+* c****_res - цыферблаты  
        ...
-* ic****_res - AOD (C191)
+* ic****_res - AOD (C191)  
        ...
 * callring.act
 * gly_api.env - токены доступа к интернет ресурсам
 * khmer.ttf - шрифт (?)
 * sec_res - картинки ресурсов
 * video_res - картинки для видеофайлов
+
 
 * on.avi - видео включения (Tank T6)
 * off.avi - видео выключения (Tank T6)
@@ -40,13 +41,13 @@
 * other_res - кртинки интерфейса
 
 ### sdfs_d.bin (f)
-* c****_res - цыферблаты
+* c****_res - цыферблаты  
        ...
-* ic**_res - AOD
+* ic**_res - AOD  
        ...
-* ic****_res - AOD
+* ic****_res - AOD  
        ...
-* pointer* - цыферблаты, только стрелки
+* pointer* - цыферблаты, только стрелки  
        ...
 * ai_b.bin - запакована картинка AI циферблата
 * ai_t.bin - картинка AI циферблата размыта, превьюв
@@ -54,8 +55,9 @@
 * u_d_t.bin - картинка фотоциферблата размыта, превьюв
 * video_b.bin - запакована картинка видеоциферблата
 * video_t.bin - картинка видеоциферблата размыта, превьюв
-* uc*
+* uc*  
        ... (?)
+
 
 * arabic.ttf (C191)
 * puhui-r.ttf (C191)
@@ -95,8 +97,10 @@
 * siren.mp3
 * test.mp3
 
+
 * ding.mp3 (Tank T6)
 * dong.mp3 (Tank T6)
+
 
 * dice.mp3 (C191)
 * drain.mp3 (C191)
@@ -115,9 +119,9 @@
 * charge1.act (?)
 * find.act
 * harmony.ttf
-* m_**-**.hex - бинарники связанные с языками (m_ru-ru.hex, m_uk-ua.hex)
+* m_**-**.hex - бинарники связанные с языками (m_ru-ru.hex, m_uk-ua.hex)  
        ...
-* r_**-**.hex - бинарники связанные с языками (r_ru-ru.hex, r_uk-ua.hex)
+* r_**-**.hex - бинарники связанные с языками (r_ru-ru.hex, r_uk-ua.hex)  
        ...
 * sdfs.txt
 * tst.bin
