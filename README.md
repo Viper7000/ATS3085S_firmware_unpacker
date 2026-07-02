@@ -13,6 +13,18 @@ ___Simply run other_res_unpacker.py in the other_res folder.___
 
 ___Simply run upgradefw_unpacker.py in the upgrade.fw folder.___
 
+## 4. Resources Unpacker. sec_res, video_res and some bin files. Usually in sdfs_a conteiner
+
+___Usage:___ python res_unpacker.py <resource_file_name>
+
+___Example:___ python res_unpacker.py sec_res
+
+## 5. SDFS conteiners Unpacker. sdfs.bin or sdfs_*.bin files Usually in firmware or upgrade.fw
+
+___Usage:___ python sdfs_unpacker.py <sdfs_file_name>
+
+___Example:___ python sdfs_unpacker.py sdfs_a.bin
+
 ## Description of the file structure in Russian. You can use a translator :)
 
 [Firmware header rus](Firmware_header_rus.md)
