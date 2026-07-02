@@ -19,7 +19,7 @@ ___Usage:___ python res_unpacker.py <resource_file_name>
 
 ___Example:___ python res_unpacker.py sec_res
 
-## 5. SDFS conteiners Unpacker. sdfs.bin or sdfs_*.bin files Usually in firmware or upgrade.fw
+## 5. SDFS conteiners Unpacker. sdfs.bin or sdfs_*.bin files. Usually in firmware or upgrade.fw
 
 ___Usage:___ python sdfs_unpacker.py <sdfs_file_name>
 
