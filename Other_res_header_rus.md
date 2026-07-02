@@ -11,15 +11,15 @@
 * Байты 11–15: Зарезервированы / заполнены нулями.
 
 ### Формат изображения
-img_type | ext | Notes
-:--------:|:---:|:----------------------------------------------------
-3  | gif | Raw GIF payload
-9  | jpg | Raw JPEG payload
-71 | rgb | rgb8888 (BGRA)
-72 | rgb | rgb8565 (RGB565 + alpha byte)
-73 | rgb | rgb565
-74 | rgb | rgb1555 (1-bit alpha + RGB)
-75 | bmp | index8-like payload (BGRA Palette + Indexed Pixels)
+img_type |hex| ext | Notes
+:--------:|:---:||:---:|:----------------------------------------------------
+3  | 03 | gif | Raw GIF payload
+9  | 09 | jpg | Raw JPEG payload
+71 | 47 | rgb | rgb8888 (BGRA)
+72 | 48 | rgb | rgb8565 (RGB565 + alpha byte)
+73 | 49 | rgb | rgb565
+74 | 4a | rgb | rgb1555 (1-bit alpha + RGB)
+75 | 4b | bmp | index8-like payload (BGRA Palette + Indexed Pixels)
 
 ### Разрешение картинки:
 Высота (Height) = (byte6 & 0x0F) << 8 | byte5
