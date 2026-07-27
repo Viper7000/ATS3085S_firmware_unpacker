@@ -5,8 +5,8 @@ Replace the number at the end of 88000 with the one you need. You need to find i
 The format is: number, model, version, update time. Next, substitute your number into the link and you'll see a JSON output. 
 In the "file" field, there's a link to your OTA.
 
-___For example, for the C175C1 (DT G1) model, number 88187, the link is___
-[https://dt1pro.wanruxia.com/xky-api/firmware/checkUpdate?devicePlan=10&number=88187]  | (https://dt1pro.wanruxia.com/xky-api/firmware/checkUpdate?devicePlan=10&number=88187)
+___For example, for the C175C1 (DT G1) model, number 88187, the link is___  
+[https://dt1pro.wanruxia.com/xky-api/firmware/checkUpdate?devicePlan=10&number=88187](https://dt1pro.wanruxia.com/xky-api/firmware/checkUpdate?devicePlan=10&number=88187)
 and the file reference is https://assets2.dt1pro.cn/fw/26/03/02/1772439053925.bin
 origin file name is ota_A5S10GLY_C175G_A3-2026-02-28-17-03_|   V1_73_21.bin
 
