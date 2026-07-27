@@ -4,22 +4,28 @@ ___Usage:___ python firmware_unpacker.py <firmware_file_name.fw>
 
 ___Example:___ python firmware_unpacker.py A5S16GLY_C229G_D2-2026-02-03-17-32_V1_72_86_debug.fw
 
-## 2. ATS3085S Smartwatch UI Resource Unpacker. The other_res file. Requires the lz4 package.
+## 2. ATS3085S Smartwatch Firmware OTA Unpacker
+
+___Usage:___ python OTA_unpacker_full.py <firmware_OTA_file_name.fw>
+
+___Example:___ python OTA_unpacker_full.py ota_A5S13GLY_H201_A6-2026-06-12-19-09_V1_81_49.bin
+
+## 3. ATS3085S Smartwatch UI Resource Unpacker. The other_res file. Requires the lz4 package.
 This file will be in the unpacked firmware folder if the firmware contains resources (debug version).
 
 ___Simply run other_res_unpacker.py in the other_res folder.___
 
-## 3. Main firmware Unpacker. A sample upgrade.fw file unpacker. This file will be in the unpacked firmware folder.
+## 4. Main firmware Unpacker. A sample upgrade.fw file unpacker. This file will be in the unpacked firmware folder.
 
 ___Simply run upgradefw_unpacker.py in the upgrade.fw folder.___
 
-## 4. Resources Unpacker. sec_res, video_res and some bin files. Usually in sdfs_a conteiner
+## 5. Resources Unpacker. sec_res, video_res and some bin files. Usually in sdfs_a conteiner
 
 ___Usage:___ python res_unpacker.py <resource_file_name>
 
 ___Example:___ python res_unpacker.py sec_res
 
-## 5. SDFS conteiners Unpacker. sdfs.bin or sdfs_*.bin files. Usually in firmware or upgrade.fw
+## 6. SDFS conteiners Unpacker. sdfs.bin or sdfs_*.bin files. Usually in firmware or upgrade.fw
 
 ___Usage:___ python sdfs_unpacker.py <sdfs_file_name>
 
