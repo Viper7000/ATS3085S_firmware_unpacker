@@ -64,7 +64,7 @@ with open(file_path, "rb") as f, open(map_output, "w", encoding="utf-8") as map_
         
         # Запись карты по шаблону: название (таб) Тип: хх (таб) Сжатие: да/нет
         comp_text = "да" if is_compressed == 1 else "нет"
-        map_f.write(f"image_{block_index:03d}.png\tТип:{fmt_type}\tСжатие: {comp_text}\n")
+        map_f.write(f"image_{block_index:03d}.png\tТип:{fmt_type}\tСжатие: {comp_text}\tСмещение={hex(current_offset)}\n")
         
         if is_compressed == 0 or compressed_size == 0:
             read_size = uncompressed_size
